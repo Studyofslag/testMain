@@ -2,6 +2,14 @@ let heading = document.querySelector("h1");
 heading.textContent = "CLICK ANYWHERE TO START";
 document.body.addEventListener("click", init);
 
+function tmp(zhang) {
+  console.log(zhang);
+}
+
+function tpp(li) {
+  console.log(li);
+}
+
 function init() {
   heading.textContent = "Voice-change-O-matic";
   document.body.removeEventListener("click", init);
